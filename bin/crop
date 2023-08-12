@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "card/cropper"
+
+Card::Cropper::CLI.new.call
+
+puts "done"
